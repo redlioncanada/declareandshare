@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|bower_components|css|img|js|robots\.txt|where-to-buy\.pdf|where-to-buy_fr\.pdf)
+RewriteRule ^(.*)$ /index.php/$1 [L]
+AuthType Basic
+AuthName "public_html"
+AuthUserFile "/home/declare/.htpasswds/public_html/passwd"
+require valid-user

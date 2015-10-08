@@ -1,0 +1,328 @@
+.container {
+  max-width: 820px;
+}
+#features label {
+  display: block;
+  width: 156px;
+  height: 156px;
+  background-image: url(../img/icons/topsprites-r1.jpg);
+}
+#features label.tilt {
+  background-position: 0 0;
+}
+#features label.lift {
+  background-position: -216px 0;
+}
+#features label.stainless {
+  background-position: -439px 0;
+}
+#features label.glass {
+  background-position: -658px 0;
+}
+#features label.quart-45 {
+  background-position: 0 -251px;
+}
+#features label.quart-5 {
+  background-position: -216px -251px;
+}
+#features label.quart-6 {
+  background-position: -439px -251px;
+}
+#features label.quart-7 {
+  background-position: -658px -251px;
+}
+#features label.watts-250 {
+  background-position: 0 -509px;
+}
+#features label.watts-300 {
+  background-position: -216px -509px;
+}
+#features label.watts-325 {
+  background-position: -439px -509px;
+}
+#features label.watts-575 {
+  background-position: -658px -509px;
+}
+#features label.watts-745 {
+  background-position: 0px -767px;
+}
+#features label.watts-970 {
+  background-position: -216px -767px;
+}
+html[lang=fr] #features label {
+  background-image: url(../img/icons/topsprites-fr.jpg);
+}
+#colours label {
+  display: block;
+  width: 156px;
+  height: 78px;
+  background-image: url(../img/icons/colorsprites.jpg);
+}
+#colours label.empire-red {
+  background-position: 0px 0px;
+}
+#colours label.apple-red {
+  background-position: -220px 0px;
+}
+#colours label.cinnamon {
+  background-position: -440px 0px;
+}
+#colours label.copper {
+  background-position: -660px 0px;
+}
+#colours label.persimmon {
+  background-position: 0px -90px;
+}
+#colours label.tangerine {
+  background-position: -220px -90px;
+}
+#colours label.buttercup {
+  background-position: -440px -90px;
+}
+#colours label.majestic-yellow {
+  background-position: -660px -90px;
+}
+#colours label.almond {
+  background-position: 0px -180px;
+}
+#colours label.pear {
+  background-position: -220px -180px;
+}
+#colours label.green-apple {
+  background-position: -440px -180px;
+}
+#colours label.bayleaf {
+  background-position: -660px -180px;
+}
+#colours label.pistachio {
+  background-position: 0px -270px;
+}
+#colours label.ice {
+  background-position: -220px -270px;
+}
+#colours label.crystal-blue {
+  background-position: -440px -270px;
+}
+#colours label.cornflower-blue {
+  background-position: -660px -270px;
+}
+#colours label.blue-willow {
+  background-position: 0px -360px;
+}
+#colours label.cobalt-blue {
+  background-position: -220px -360px;
+}
+#colours label.boysenberry {
+  background-position: -440px -360px;
+}
+#colours label.watermelon {
+  background-position: -660px -360px;
+}
+#colours label.raspberry-ice {
+  background-position: 0px -450px;
+}
+#colours label.pink {
+  background-position: -220px -450px;
+}
+#colours label.white-on-white {
+  background-position: -440px -450px;
+}
+#colours label.white {
+  background-position: -660px -450px;
+}
+#colours label.frosted-pearl {
+  background-position: 0px -540px;
+}
+#colours label.meringue {
+  background-position: -220px -540px;
+}
+#colours label.cocoa-silver {
+  background-position: -440px -540px;
+}
+#colours label.medallion-silver {
+  background-position: -660px -540px;
+}
+#colours label.grey {
+  background-position: 0px -630px;
+}
+#colours label.dark-pewter {
+  background-position: -220px -630px;
+}
+#colours label.sugar-pearl-silver {
+  background-position: -440px -630px;
+}
+#colours label.nickel-pearl {
+  background-position: -660px -630px;
+}
+#colours label.metallic-chrome {
+  background-position: 0px -720px;
+}
+#colours label.silver-metallic {
+  background-position: -220px -720px;
+}
+#colours label.pearl-metallic {
+  background-position: -440px -720px;
+}
+#colours label.caviar {
+  background-position: -660px -720px;
+}
+#colours label.black-storm {
+  background-position: 0px -810px;
+}
+#colours label.licorice {
+  background-position: -220px -810px;
+}
+#colours label.imperial-black {
+  background-position: -440px -810px;
+}
+#colours label.onyx-black {
+  background-position: -660px -810px;
+}
+#colours label.liquid-graphite {
+  background-position: 0px -900px;
+}
+#colours label img {
+  height: 56px;
+  width: 160px;
+}
+html[lang=fr] #colours label {
+  background-image: url(../img/icons/colorsprites-fr.jpg);
+}
+label > input {
+  display: none;
+}
+label > input + img {
+  /* IMAGE STYLES */
+  cursor: pointer;
+  border: 2px solid #e7e7e7;
+}
+label > input:checked + img {
+  /* (RADIO CHECKED) IMAGE STYLES */
+  border: 2px solid #464646;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.disabled {
+  opacity: 0.3;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.disabled > input + img {
+  border: 2px solid white;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.popover-content {
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1.42857143;
+}
+.popover-content h4 {
+  font-size: 14px;
+  margin: 10px 0 5px;
+}
+.popover {
+  max-width: 680px;
+}
+.popover .arrow {
+  display: none;
+}
+.popover table td,
+.popover table th {
+  padding: 5px;
+}
+h3 {
+  font-size: 21px;
+  margin: 50px 0 20px;
+}
+#product-img {
+  max-width: 100%;
+}
+#model {
+  margin-top: -20px;
+}
+#description {
+  margin: 10px 0 20px;
+}
+#icons {
+  margin: 15px 0;
+}
+#icons img {
+  max-width: 18%;
+  margin-right: 1%;
+}
+.btn {
+  border-radius: 0;
+}
+.max-me {
+  width: 49%;
+  display: inline-block;
+  margin-right: 1.9%;
+}
+.max-me:last-child {
+  margin-right: 0;
+}
+.accessory {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.accessory img {
+  max-height: 140px;
+  max-width: 100%;
+}
+.well {
+  background: white;
+  border: 1px solid #e7e7e7;
+}
+.well #accessories {
+  padding: 15px 15px 15px 30px;
+  border-left: 1px solid #464646;
+  width: 45%;
+  float: left;
+}
+.well #accessories h3 {
+  margin: 0 0 15px;
+}
+.well #accessories h4 {
+  font-size: 15px;
+  margin-bottom: 0;
+}
+.well #accessories .accessory {
+  width: 42%;
+  float: left;
+  text-align: left;
+  margin: 10px 23px 10px 0;
+}
+.well #accessories .accessory p {
+  margin: 3px 0 0;
+}
+.well #accessories .accessory a {
+  color: #bd0000;
+}
+.well #accessories .accessory img {
+  max-width: 80%;
+}
+.well #hub {
+  width: 50%;
+  margin: 15px 15px 15px 15px;
+  padding-right: 20px;
+  float: left;
+}
+.well #hub h3 {
+  margin: 0 0 25px;
+}
+.well #hub p {
+  margin: 30px 0 0;
+}
+.well #hub img {
+  width: 100%;
+}
+.well:after {
+  clear: both;
+}
